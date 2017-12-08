@@ -1,0 +1,18 @@
+AuthUserFile /virtual/kobetanken/public_html/pages/photos/submit/.htpasswd
+
+AuthGroupFile /dev/null
+
+AuthName "Members-Area"
+
+AuthType Basic
+
+require valid-user
+
+<Files ~ "^.(htpasswd|htaccess)$">
+
+deny from all
+
+</Files>
+
+AddType application/x-httpd-cgi .cgi
+

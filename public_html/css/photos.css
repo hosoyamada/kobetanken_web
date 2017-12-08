@@ -1,0 +1,61 @@
+div#contents {
+	clear:both;
+}
+
+ul#photos li {
+	list-style-type:circle;
+	display:inline-block;
+	margin:0px 10px 0px 10px;
+}
+
+div#year {
+	/*width:1100px; */
+	margin:10px 20px 30px 20px;	/*幅の指定と位置調整*/
+    background-color:palegreen;
+    border:thin solid;
+}
+
+div#title {
+	/*width:650px; */
+	margin:10px 10px 10px 10px; padding-top:10px; /*幅の指定と位置調整*/
+    border:thin solid;
+    background-color:lightyellow;
+}
+
+div#submit {
+	margin:10px 0px 10px 0px;
+	width:650px;
+	float:left;
+}
+
+div#insert {
+	margin:10px 0px 10px 20px;
+width:300px;
+float:left;
+	background-color:pink;
+
+}
+
+div#delete {
+	margin:10px 0px 10px 20px;
+width:300px;
+float:right;
+	background-color:lightblue;
+}
+
+
+/*============================================
+フッタ
+============================================*/
+div#footer {
+	height:42px; text-align:center;
+	clear:both;					/*回り込みを解除する*/
+	background-image:url("images/bg_footer.jpg");	/*フッタ部分の背景画像*/
+	background-repeat:no-repeat;			/*背景画像を繰り返さない*/
+	background-color:#cccccc;			/*フッタ部分の背景色*/
+}
+address {
+	font-style:normal;			 /*フォントスタイルを標準にする*/
+	font-size:small;			 /*フォントサイズを小さくする*/
+	padding:5px 0px 5px 0px;		 /*要素内容の位置調整*/
+}				

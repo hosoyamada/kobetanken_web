@@ -1,0 +1,98 @@
+@charset "Shift_JIS";
+
+div#pagebody {
+	margin:0px auto ;	/*内容全体をセンタリング*/
+	margin-top: 100px;
+	text-align:left;	/*テキストの配置を左揃えにする*/
+	background-image:url("images/bg_pagebody.gif");	/*内容全体の背景*/
+	background-repeat:repeat-y;		/*背景画像を縦方向に繰り返す*/
+	background-color:white;		/*内容全体の背景色*/
+}
+
+div#image{
+        margin-top:50px;
+}
+
+div#welcome {
+        text-align:center;
+}
+
+div#title {
+        margin-bottom:-15px;
+}
+div#title img{
+        margin-bottom:10px;
+}
+div#title h2,h3{
+        display:inline;
+}
+
+
+/*============================================
+コンテンツ（中央と右の2カラム全体）
+============================================*/
+
+div#content {
+	display: inline-block;
+        /*margin:10px 200px 10px 0px;*/	/*幅の指定と位置調整*/
+	/*float:right;*/				/*2カラム全体を左寄せにする*/
+        background-color:palegreen;
+}
+
+
+/*============================================
+ニュース（左）
+============================================*/
+div#news {
+	background-repeat:no-repeat;			/*背景画像を繰り返さない*/
+        background-color:lightyellow;
+}
+
+
+/*============================================
+サイドバー（右）
+============================================*/
+div#right-side-sm{
+	display:inline-block;
+	text-align:left;	/*テキストの配置を中央揃えにする*/
+	background-repeat:no-repeat;		 /*背景画像を繰り返さない*/
+}
+
+/*============================================
+カレンダー（右上）
+============================================*/
+div#calendar1 {
+	text-align:left;	/*テキストの配置を中央揃えにする*/
+	float:right;
+	width: 315px;
+	background-repeat:no-repeat;		 /*背景画像を繰り返さない*/
+        background-color:lightyellow;
+}
+
+/*============================================
+ツイッター（右下）
+============================================*/
+
+div#twitter {
+	text-align:left;	/*テキストの配置を中央揃えにする*/
+	float:right;				/*カラムを右寄せにする*/
+	background-repeat:no-repeat;		 /*背景画像を繰り返さない*/
+}
+
+
+
+/*============================================
+フッタ
+============================================*/
+div#footer {
+	height:42px; text-align:center;
+	clear:both;					/*回り込みを解除する*/
+	background-image:url("images/bg_footer.jpg");	/*フッタ部分の背景画像*/
+	background-repeat:no-repeat;			/*背景画像を繰り返さない*/
+	background-color:#cccccc;			/*フッタ部分の背景色*/
+}
+address {
+	font-style:normal;			 /*フォントスタイルを標準にする*/
+	font-size:small;			 /*フォントサイズを小さくする*/
+	padding:5px 0px 5px 0px;		 /*要素内容の位置調整*/
+}				

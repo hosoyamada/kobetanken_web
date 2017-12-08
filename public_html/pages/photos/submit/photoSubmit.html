@@ -1,0 +1,232 @@
+<!--
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>神戸大学探検部</title>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Load fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+
+	<!--Load styles -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">	
+        <link rel="stylesheet" type="text/css" href="../css/sample.css">
+        <link rel="stylesheet" type="text/css" href="../css/cal.css">
+</head>
+<body>
+<dir id="pagebody">
+
+<!-- ヘッダ -->
+<dir id="header">
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1 class="navbar-brand" href="#"></h1>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+		
+					<ul class="nav navbar-nav">
+
+						<li><a  href="../index.html#home">トップ</a></li>
+						<li><a  href="../home.html#home">ホーム</a></li>
+						<li><a  href="../services.html">探検部とは？</a></li>
+						<li><a  href="../menber.html">メンバー</a></li>
+						<li><a  href="../photo.html">活動写真</a></li>
+						<li><a  href="../ensei.html">遠征</a></li>
+						<li><a  href="../index.html#contact">問い合わせ</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+</dir>
+	
+        <!-- コンテンツ -->
+	<div id="content">
+                <!-- 神戸大学探検部HPへようこそ！ -->
+                <div>
+                        <h2 class="wow fadeInDown" data-wow-delay="0s">〜活動写真〜</h2>
+                        <hr/>
+                </div>
+
+        <!-- 送信フォーム -->
+<a href="rakugaki.cgi">落書き</a>
+    <form id="my_form" action="rakugaki.cgi" method="post" enctype="multipart/form-data" >
+      <input type="file" name="input_file" > <br>
+      <input type="submit" value="送信" >
+    </form>
+
+    <iframe id="my_iframe" name="form_response" style="display:none;" ></iframe>
+
+    <script type="text/javascript">
+    <!--
+
+	// ------------------------------------------------------------
+	// インラインフレーム内の読み込み完了を監視するコンストラクタ
+	// ------------------------------------------------------------
+	function IFrameElementObserverContentLoaded (iframe,callback){
+
+		// ------------------------------------------------------------
+		// 初期化
+		// ------------------------------------------------------------
+		var handler;
+		var iframe_window = iframe.contentWindow;
+		if(iframe.addEventListener){
+			handler = function (e){
+				callback();
+			};
+			iframe.addEventListener("load" , handler);
+		}else if(iframe.attachEvent){
+			handler = function (e){
+				try {
+					if(iframe_window.document.readyState === "complete"){
+						callback();
+					}
+				}catch(e){
+				}
+			};
+			iframe.attachEvent("onreadystatechange" , handler);
+		}
+
+		// ------------------------------------------------------------
+		// 開放する
+		// ------------------------------------------------------------
+		this.release = function(){
+			if(!handler) return;
+			if(iframe.removeEventListener){
+				iframe.removeEventListener("load" , handler);
+			}else if(iframe.detachEvent){
+				iframe.detachEvent("onreadystatechange" , handler);
+			}
+			handler = null;
+		};
+	}
+
+	// ------------------------------------------------------------
+	// エレメントの内容を文字列として取得する関数
+	// ------------------------------------------------------------
+	function ElementGetTextContent(element){
+		if(element.textContent !== undefined){
+			return element.textContent;
+		}
+		if(element.innerText !== undefined){
+			return element.innerText;
+		}
+
+		return "";
+	}
+
+
+	// ------------------------------------------------------------
+	// 各要素を取得する
+	// ------------------------------------------------------------
+	// "my_form" という ID 属性のエレメントを取得する
+	var form = document.getElementById("my_form");
+
+	// "my_iframe" という ID 属性のエレメントを取得する
+	var iframe = document.getElementById("my_iframe");
+
+	// ------------------------------------------------------------
+	// フォームの設定を変更する
+	// ------------------------------------------------------------
+	// アクセス先を変更する
+	form.action = "http://example.com/cgi-bin/upload.cgi?type=text";
+
+	// ターゲットウィンドウを設定する
+	form.target = "form_response";
+
+	// ------------------------------------------------------------
+	// サブミット直前に実行されるイベント
+	// ------------------------------------------------------------
+	form.onsubmit = function (e){
+
+		// ------------------------------------------------------------
+		// インラインフレーム内の読み込み完了を監視する
+		// ------------------------------------------------------------
+		var observer = new IFrameElementObserverContentLoaded (iframe , function(){
+
+			// ------------------------------------------------------------
+			// 監視を終了する（ここでは１回だけ監視する）
+			// ------------------------------------------------------------
+			observer.release();
+			observer = null;
+
+			// ------------------------------------------------------------
+			// インラインフレーム内のコンテンツを取得する
+			// ------------------------------------------------------------
+			try{
+				// インラインフレーム内の Window オブジェクトを取得する
+				var iframe_window = iframe.contentWindow;
+
+				// Document オブジェクトを取得する
+				var iframe_document = iframe_window.document;
+
+				// HTMLHtmlElement オブジェクトを取得する
+				var html_element = iframe_document.documentElement;
+
+				// 自身を含む HTML 文字列を取得する
+				var str_html = html_element.outerHTML;
+				
+				// エレメントの内容をテキストとして取得する
+				var str_text = ElementGetTextContent(html_element);
+
+				// 出力テスト
+				console.log(str_html);
+				console.log(str_text);
+
+			}catch(e){
+
+				// 出力テスト（セキュリティエラーなど）
+				console.log(e);
+			}
+
+		});
+
+	};
+
+    //-->
+    </script>
+
+	<!-- フッタ -->
+	<!-- <div id="footer"><address>Kobe University Exploer Club.</address></div> -->
+</div>
+
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+
+<!-- Load Booststrap -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<!-- Load custom js plugins -->
+<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+
+<!-- Load custom js for theme -->
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>		

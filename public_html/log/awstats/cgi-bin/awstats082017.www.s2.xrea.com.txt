@@ -1,0 +1,426 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+# Last config file used to build this data file was /virtual/www/public_html/log/awstats/cgi-bin/awstats.www.s2.xrea.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2100                
+POS_TIME 2772                
+POS_VISITOR 8688                
+POS_DAY 11172               
+POS_DOMAIN 3695                
+POS_LOGIN 4027                
+POS_ROBOT 4182                
+POS_WORMS 4987                
+POS_EMAILSENDER 5118                
+POS_EMAILRECEIVER 5261                
+POS_SESSION 11973               
+POS_SIDER 12185               
+POS_FILETYPES 5396                
+POS_DOWNLOADS 5635                
+POS_OS 5683                
+POS_BROWSER 5910                
+POS_SCREENSIZE 6531                
+POS_UNKNOWNREFERER 6605                
+POS_UNKNOWNREFERERBROWSER 6692                
+POS_ORIGIN 6774                
+POS_SEREFERRALS 6918                
+POS_PAGEREFS 7085                
+POS_SEARCHWORDS 7813                
+POS_KEYWORDS 7976                
+POS_MISC 2436                
+POS_ERRORS 8046                
+POS_CLUSTER 3883                
+POS_SIDER_403 8179                
+POS_SIDER_400 8297                
+POS_SIDER_404 8379                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901000002 2317 264406 8963833046856
+FirstTime 0
+LastTime 20170831235707
+LastUpdate 20170901055855 2317 0 2316 0 0
+TotalVisits 229                 
+TotalUnique 44                  
+MonthHostsKnown 38                  
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 32 45615 3265 3276 983393
+1 3 3 1539 3278 3287 983102
+2 17 25 43667 3325 3330 995494
+3 23 25 44803 3352 3359 993400
+4 10 10 15830 3264 3268 970160
+5 11 13 13647 3341 3348 1028013
+6 27 34 44418 3258 3266 978461
+7 70 94 163614 3305 3330 993128
+8 117 138 223278 3331 3362 994078
+9 74 83 141907 3272 3289 1001553
+10 120 127 324385 3127 3140 945875
+11 80 92 166758 3172 3202 954219
+12 93 114 217354 3274 3288 1042142
+13 126 135 310880 3272 3308 1019059
+14 74 86 159824 3236 3268 1030723
+15 148 197 525604 3272 3305 1046372
+16 58 63 125788 3373 3381 1075958
+17 134 179 583172 3270 3287 1038385
+18 88 98 212050 3237 3262 1048138
+19 72 81 146741 3166 3181 980358
+20 104 112 191926 3167 3195 973201
+21 72 77 191452 3208 3248 1024434
+22 41 54 125039 3239 3247 1000804
+23 79 91 182550 3216 3227 974127
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+jp 973 1132 2202621
+com 332 413 1017437
+net 267 272 551619
+ip 86 141 427231
+eu 2 2 1026
+ua 1 1 513
+ru 1 1 697
+io 1 1 697
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+Wget/ 77534 23550454 20170831235949 0
+no_user_agent 223 50329 20170831232109 0
+bingbot/ 115 119371 20170831230941 0
+YandexBot/ 19 23371 20170830091241 0
+MSIE[\x20]5 17 11849 20170831012142 0
+MSIE[\x20]6 8 43608 20170801213252 0
+Baiduspider/ 7 21285 20170830155602 0
+curl 7 118288 20170821201303 0
+steeler 6 32876 20170827062857 0
+favicon 4 21884 20170823154624 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 697 20170821054708 0
+DotBot/ 2 322 20170823211946 0
+bingpreview 1 1476 20170817174953 0
+Mail\.RU_Bot/ 1 513 20170812051943 0
+SemrushBot/ 2 10988 20170829105213 0
+SurdotlyBot/ 1 513 20170822111820 0
+MJ12bot/ 1 697 20170822050510 0
+facebookexternalhit/ 2 14432 20170803101626 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 7 22996 0 0
+png 277 475551 0 0
+cgi 133 804466 0 0
+shtm 14 2228 0 0
+php 1486 2547754 0 0
+xcg 28 161311 0 0
+html 2 9340 0 0
+js 12 147241 0 0
+jpg 3 29520 0 0
+gif 1 1434 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+macosx6 2 2
+macosx11 1 1
+winxp 18 18
+winlong 630 515
+ios_iphone 11 11
+macosx12 15 15
+linux 66 40
+win7 92 63
+win8 1 1
+win8.1 46 32
+win10 774 733
+ios_ipad 307 232
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+chrome59.0.3071.115 25 25
+firefox50.0 1 1
+safari7.0 305 230
+chrome34.0.1847.137 1 1
+safari10.0.2 2 2
+firefox55.0 144 141
+safari10.0 9 9
+firefox52.0 611 508
+chrome62.0.3179.0 7 5
+chrome31.0.1650.57 1 1
+firefox54.0 186 159
+firefox49.0 10 10
+chrome57.0.2987.98 3 3
+chrome53.0.2490.80 1 1
+firefox45.0 56 30
+chrome60.0.3112.113 2 2
+iphone 1 1
+msie8.0 38 23
+msie11.0 56 41
+chrome36.0.1985.143 1 1
+mozilla 9 9
+msie10.0 3 3
+chrome60.0.3112.101 28 20
+safari8.0 2 2
+safari5.1.9 2 2
+chrome60.0.3112.90 4 4
+edge15 425 403
+chrome49.0.2623.112 16 16
+chrome62.0.3198.0 13 9
+safari 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 748 748
+From1 0 0
+From2 13 13
+From3 219 300
+From4 683 902
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+msn 11 11
+yandexru 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+https://ss1.xrea.com/www.s2.xrea.com/mail/src/webmail.php 145 145
+https://ss1.xrea.com/www.s2.xrea.com/jp/admin.cgi 37 37
+https://ss1.xrea.com/www.s2.xrea.com/mail/src/right_main.php 24 104
+http://www.value-domain.com/web.php 3 3
+https://www.xrea.com/login/ 2 2
+https://ss1.xrea.com/www.s2.xrea.com/mail/src/read_body.php 2 3
+https://ss1.xrea.com/www.s2.xrea.com/mail/src/left_main.php 2 2
+https://pwm35.trendmicro.com/mobile/replay.html 1 1
+https://darkbyte.ru 1 1
+https://www.value-domain.com/svip.php 1 1
+https://pwm-image.trendmicro.jp/3.7/extensionPopOver/replay_2.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+default 11
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+default 11
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 12 2652
+503 6 1794
+302 192 0
+504 1 247
+404 264 44631
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 2
+/jp/admin.cgi 8 -
+/jp/admin.xcg 4 -
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 44
+42-147-221-58.rev.home.ne.jp 508 611 912311 20170831235707
+catv300069.tac-net.ne.jp 368 390 586713 20170829083752
+ss1.xrea.com 328 409 1006506 20170831204339
+softbank060137101238.bbtec.net 262 267 527176 20170830143356
+150.15.72.138 30 56 165002 20170821154101
+150.15.73.185 29 43 153120 20170808152434
+150.15.73.104 20 35 87959 20170808121745
+180-145-3-1f1.kyt1.eonet.ne.jp 12 12 55548 20170827210904
+kd111103139117.ppp-bb.dion.ne.jp 11 19 68839 20170826224124
+101-142-71-137f1.hyg1.eonet.ne.jp 10 10 62561 20170812212247
+softbank126080043060.bbtec.net 5 5 24443 20170805140249
+pool-88-206-23-110.is74.ru 1 1 697 20170804022649
+ngn1-ppp256.tochigi.sannet.ne.jp 3 3 10684 20170813231934
+ns3025334.ip-149-202-72.eu 1 1 513 20170823034405
+i114-189-3-205.s11.a017.ap.plala.or.jp 2 2 5654 20170830193825
+180-145-29-99f1.kyt1.eonet.ne.jp 4 4 18380 20170806205843
+pd2fa5d06.kyotnt01.ap.so-net.ne.jp 8 8 44010 20170828213622
+pxy019.kuins.kyoto-u.ac.jp 2 2 10914 20170809142739
+p3920048-ipngn21301marunouchi.tokyo.ocn.ne.jp 1 1 5448 20170802124154
+p5009-ipbfp701okayamaima.okayama.ocn.ne.jp 3 3 10672 20170830204740
+150-70-188-178.trendmicro.com 1 1 334 20170806174439
+fla1aai161.myg.mesh.ad.jp 3 3 21879 20170805135448
+p503016-ipbfp070103kamokounan.kagoshima.ocn.ne.jp 4 5 9418 20170821235516
+218.231.111.98.eo.eaccess.ne.jp 8 33 288608 20170806174316
+163-172-105-72.rev.poneytelecom.eu 1 1 513 20170821223833
+pxy017.kuins.kyoto-u.ac.jp 2 2 11000 20170824133350
+218-251-36-11f1.osk2.eonet.ne.jp 3 3 10586 20170801174940
+i125-203-146-216.s02.a034.ap.plala.or.jp 1 1 5494 20170828192847
+kd113151141073.ppp-bb.dion.ne.jp 2 2 5654 20170822034848
+183.234.123.117 1 1 5494 20170829155854
+203.189.105.202 2 2 13604 20170801114417
+sp49-98-144-227.msd.spmode.ne.jp 1 1 5494 20170816184810
+census8.shodan.io 1 1 697 20170830193418
+pxy001.kuins.kyoto-u.ac.jp 2 2 10912 20170803111005
+166.111.132.193 4 4 2052 20170815015339
+h175-177-012-117.catv02.itscom.jp 8 8 12191 20170805120054
+ec2-52-27-2-86.us-west-2.compute.amazonaws.com 1 1 161 20170823175020
+tpxy7.kuins.kyoto-u.ac.jp 2 2 11000 20170829153337
+li411-48.members.linode.com 2 2 10436 20170819184258
+110.228.197.113.dy.bbexcite.jp 1 1 1967 20170808121149
+unused-133-130-5-039.interq.or.jp 1 1 5447 20170808112655
+pxy013.kuins.kyoto-u.ac.jp 2 2 10914 20170809132642
+178-165-88-182-kh.maxnet.ua 1 1 513 20170808010529
+kd111103053160.ppp-bb.dion.ne.jp 1 1 323 20170817131646
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170801 33 36 90231 6
+20170802 43 47 103449 6
+20170803 141 151 373099 10
+20170804 47 56 103985 8
+20170805 91 91 177632 8
+20170806 39 70 380952 9
+20170807 19 27 69140 5
+20170808 88 125 327166 13
+20170809 28 37 81927 7
+20170810 84 90 188662 10
+20170811 36 42 85713 5
+20170812 28 31 76107 4
+20170813 90 104 215418 12
+20170814 128 134 170655 5
+20170815 146 159 237609 10
+20170816 34 44 66375 4
+20170817 57 66 108407 10
+20170818 17 21 50707 5
+20170819 56 65 101440 9
+20170820 5 6 12367 1
+20170821 80 113 275153 10
+20170822 31 38 66250 5
+20170823 75 82 196418 13
+20170824 49 51 88611 8
+20170825 6 8 19727 2
+20170826 29 46 111893 4
+20170827 26 33 83043 6
+20170828 33 48 75787 8
+20170829 32 37 81079 10
+20170830 58 64 120576 10
+20170831 34 41 62263 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 22
+5mn-15mn 11
+2mn-5mn 5
+30s-2mn 12
+0s-30s 146
+15mn-30mn 14
+30mn-1h 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/mail/src/left_main.php 654 780575 1 49
+/mail/src/right_main.php 305 803373 0 67
+/mail/src/webmail.php 255 97910 140 2
+/jp/admin.cgi 132 804143 46 56
+/mail/src/read_body.php 92 321159 1 22
+/ftp/ 73 332750 2 3
+/mail/src/login.php 68 70448 0 2
+/jp/admin.xcg 28 161311 13 13
+/mail/src/compose.php 22 119754 0 0
+/jp/admin.shtm 14 2228 13 1
+/ 9 4985 7 7
+/jp/editmail.cgi 1 323 1 1
+/mail/src/redirect.php 3 2220 2 0
+/mail/src/view_header.php 2 5048 0 1
+/mailr/ 2 4037 1 2
+/ftp/help_files/03-administrator.html 2 9340 2 2
+/jp/admin.cgi/trackback/ 1 5495 0 1
+END_SIDER

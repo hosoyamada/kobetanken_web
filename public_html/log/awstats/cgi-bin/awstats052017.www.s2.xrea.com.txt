@@ -1,0 +1,280 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201705 will be lost/reset.
+# Last config file used to build this data file was /virtual/www/public_html/log/awstats/cgi-bin/awstats.www.s2.xrea.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2100                
+POS_TIME 2785                
+POS_VISITOR 3669                
+POS_DAY 4060                
+POS_DOMAIN 4209                
+POS_LOGIN 4451                
+POS_ROBOT 4606                
+POS_WORMS 4943                
+POS_EMAILSENDER 5074                
+POS_EMAILRECEIVER 5217                
+POS_SESSION 5293                
+POS_SIDER 5446                
+POS_FILETYPES 5840                
+POS_DOWNLOADS 5985                
+POS_OS 6033                
+POS_BROWSER 6174                
+POS_SCREENSIZE 6298                
+POS_UNKNOWNREFERER 6372                
+POS_UNKNOWNREFERERBROWSER 6459                
+POS_ORIGIN 6541                
+POS_SEREFERRALS 6675                
+POS_PAGEREFS 6819                
+POS_SEARCHWORDS 7158                
+POS_KEYWORDS 7310                
+POS_MISC 2449                
+POS_ERRORS 7369                
+POS_CLUSTER 4307                
+POS_SIDER_403 7465                
+POS_SIDER_400 7547                
+POS_SIDER_404 7629                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170601000001 2908 349208 8972506475587
+FirstTime 20170531004800
+LastTime 20170531224731
+LastUpdate 20170601043224 2908 0 2907 0 0
+TotalVisits 12                  
+TotalUnique 6                   
+MonthHostsKnown 6                   
+MonthHostsUnknown 0                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 10032 115 117 19003
+1 0 0 0 116 116 33421
+2 0 0 0 117 117 35333
+3 0 0 0 125 125 34662
+4 0 0 0 129 129 40414
+5 0 0 0 118 120 42623
+6 0 0 0 116 116 33424
+7 7 9 17102 132 132 36670
+8 4 4 20064 116 127 40242
+9 3 3 14702 114 114 31942
+10 0 0 0 117 119 33670
+11 0 0 0 106 106 31445
+12 2 2 10032 120 120 39316
+13 7 10 19142 123 125 34901
+14 5 5 5542 122 125 40401
+15 0 0 0 111 111 34151
+16 0 0 0 116 117 33914
+17 4 4 20078 118 130 36447
+18 0 0 0 108 108 31633
+19 0 0 0 103 103 29664
+20 0 0 0 107 107 30553
+21 10 10 15347 124 126 35375
+22 7 7 16022 110 120 34973
+23 0 0 0 121 121 34322
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 6
+42-147-221-58.rev.home.ne.jp 26 29 41005 20170531224329
+ss1.xrea.com 20 22 81964 20170531224717
+tpxy7.kuins.kyoto-u.ac.jp 2 2 10046 20170531174203
+202177055217.dhcp.f1.octv.ne.jp 1 1 5016 20170531084535
+kd182251248049.au-net.ne.jp 1 1 5016 20170531224731
+i125-203-148-79.s02.a034.ap.plala.or.jp 1 1 5016 20170531213108
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20170531 51 56 148063 12
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+jp 31 34 66099
+com 20 22 81964
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Wget/ 2780 787500 20170531235951 0
+bingbot/ 12 28218 20170531153133 0
+no_user_agent 3 36 20170531173136 0
+favicon 2 5529 20170531160416 0
+MSIE[\x20]5 1 697 20170531120541 0
+Uptimebot/ 1 0 20170531131458 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+1h+ 2
+0s-30s 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/jp/admin.cgi 15 75240 7 7
+/mail/src/left_main.php 13 15505 0 1
+/mail/src/webmail.php 7 3222 4 0
+/mail/src/right_main.php 7 19994 0 1
+/mail/src/login.php 3 3108 0 0
+/mail/src/read_body.php 3 7764 0 1
+/jp/admin.xcg 2 10046 1 1
+/ftp/help_files/03-administrator.html 1 4670 0 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+xcg 2 10046 0 0
+php 33 49593 0 0
+png 5 8514 0 0
+html 1 4670 0 0
+cgi 15 75240 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+winlong 29 26
+ios_iphone 10 10
+win10 1 1
+macosx12 6 6
+ios_ipad 9 7
+win7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+safari7.0 9 7
+msie11.0 2 2
+mozilla 6 6
+firefox52.0 29 26
+safari10.0 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 31 31
+From1 0 0
+From2 0 0
+From3 6 8
+From4 14 17
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://ss1.xrea.com/www.s2.xrea.com/mail/src/right_main.php 2 4
+https://ss1.xrea.com/www.s2.xrea.com/mail/src/webmail.php 2 2
+https://ss1.xrea.com/www.s2.xrea.com/mail/src/left_main.php 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 5 0
+404 29 6519
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 7
+/apple-touch-icon-precomposed.png 8 -
+/robots.txt 3 -
+/apple-touch-icon-120x120.png 4 -
+/apple-touch-icon.png 8 -
+/apple-touch-icon-120x120-precomposed.png 4 -
+/ftp/help_files/03-administrator.html/trackback/ 1 https://ss1.xrea.com/www.s2.xrea.com/ftp/help_files/03-administrator.html
+/ytsheet_sw2/ 1 -
+END_SIDER_404
